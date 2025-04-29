@@ -31,15 +31,10 @@
 import math
 n=int(input("Enter the number : "))
 
-# Step 1: Get input from user
-# num = float(input("Enter a number: "))
+st = math.sqrt(n)
+nl = math.log(n)
+sv = math.sin(n)
 
-square_root = math.sqrt(n)
-natural_log = math.log(n)
-sine_value = math.sin(n)
-
-# Step 3: Display results
-print("\n--- Calculated Results ---")
-print(f"Square root of {n} = {square_root}")
-print(f"Natural log of {n} = {natural_log}")
-print(f"Sine of {n} (in radians) = {sine_value}")
+print(f"Square root of {n} = {st}")
+print(f"Natural log of {n} = {nl}")
+print(f"Sine of {n} (in radians) = {sv}")
